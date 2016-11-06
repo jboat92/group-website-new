@@ -117,9 +117,12 @@ img {
     height: auto;
     display: table-row;
     padding-top: 10px;
+    margin-left: :0px: 
 }
 
-
+section#section1 {
+    max-width: 100%;
+}
     
 
 
