@@ -34,10 +34,11 @@ nav { width: 100%; text-align: center; }
 nav a { 
     display: block; 
     padding: 15px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px #FFCCCC ;
     color: black;
+    padding-right:0;
 }
-nav a:hover { background: grey; color: #FFF; }
+nav a:hover { background: #d3d3d3; color: #FFF; }
 nav li:last-child a { border-bottom: none; }
 
 /*-----------------------------------------*/
@@ -121,8 +122,7 @@ img {
 
     
 
-    
-}
+
 
 .row1{
    display: inline-grid;
@@ -155,7 +155,7 @@ footer {
 }
 
 li {
-    margin-left: 22px;
+    margin-left: 0px;
     color: white;
 }
 
@@ -180,4 +180,27 @@ li {
     margin-top: 0;
 }
 
+.navbar {
+    width: 100%;
+    margin:0;
+}
 
+
+body {
+      position: relative;
+
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; }
+  #section2 {padding-top:50px;height:500px;color: #fff; }
+  #section3 {padding-top:50px;height:500px;color: #fff; }
+
+  a {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.dropdown-menu {
+    float:right;
+}
